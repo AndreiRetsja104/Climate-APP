@@ -7,7 +7,7 @@
  *
  * @author seang
  */
-public class LoginGUI extends javax.swing.JFrame {
+public class LoginGUI extends javax.swing.JInternalFrame  {
 
     /**
      * Creates new form LoginGUI
