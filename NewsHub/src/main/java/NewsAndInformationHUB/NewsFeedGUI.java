@@ -6,6 +6,7 @@ package NewsAndInformationHUB;
 
 import java.util.List;
 import java.awt.BorderLayout;
+import javax.swing.JInternalFrame;
 import javax.swing.JList;
 import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
@@ -15,8 +16,8 @@ import javax.swing.SwingUtilities;
  *
  * @author arets
  */
-public class NewsFeedGUI extends javax.swing.JFrame {
-
+public class NewsFeedGUI extends JInternalFrame {
+//javax.swing.JFrame
     private JTabbedPane mainFrame;
     private JList<String> articleList, videoList, researchList;
     private NewsFeed newsFeed;

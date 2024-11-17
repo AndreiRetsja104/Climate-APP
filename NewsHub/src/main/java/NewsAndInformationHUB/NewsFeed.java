@@ -39,5 +39,9 @@ public class NewsFeed {
         System.out.println("Displaying research: " + research);   // Debug statement
         return research;
     }
+
+    void setSelected(boolean b) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 }
